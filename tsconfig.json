@@ -1,0 +1,17 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@nrp/components": ["libs/components/src/lib"],
+      "@nrp/utils": ["libs/utils/src/lib/utils"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  }
+}

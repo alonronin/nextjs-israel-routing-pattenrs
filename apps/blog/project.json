@@ -1,0 +1,8 @@
+{
+  "name": "blog",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/blog",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}
