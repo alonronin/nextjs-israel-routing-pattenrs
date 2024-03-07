@@ -34,6 +34,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             items={[
               { title: 'Home', url: '/', exact: true },
               { title: 'Posts', url: '/posts' },
+              { title: 'Nested', url: '/nested' },
+              { title: 'Catch All', url: '/catch-all' },
+              { title: 'Optional Catch All', url: '/optional-catch-all' },
+              { title: 'Parallel', url: '/parallel' },
+              { title: 'Intercepted', url: '/intercepted' },
+              { title: 'Dynamic Render', url: '/dynamic-render' },
             ]}
           />
           <Container>{children}</Container>

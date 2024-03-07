@@ -1,4 +1,4 @@
-import { Paragraph, Title } from '@nrp/components/server';
+import { ContentWrapper, Paragraph, Title } from '@nrp/components/server';
 
 export default function Index() {
   /*
@@ -7,7 +7,7 @@ export default function Index() {
    * Note: The corresponding styles are in the ./index.css file.
    */
   return (
-    <>
+    <ContentWrapper>
       <Title>Hello</Title>
 
       <Paragraph>
@@ -15,6 +15,6 @@ export default function Index() {
         aliquid aut cum debitis deleniti deserunt earum, eligendi eveniet hic
         magnam minus molestias nisi quae quaerat rem, sint tempora totam!
       </Paragraph>
-    </>
+    </ContentWrapper>
   );
 }

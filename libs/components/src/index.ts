@@ -49,3 +49,4 @@ export * from './lib/ui/tooltip';
 export * from './lib/theme-provider';
 export * from './lib/mode-toggle';
 export * from './lib/navigation';
+export * from './lib/navigation-tabs';

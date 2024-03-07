@@ -5,9 +5,5 @@ export function Paragraph({
   children,
   className,
 }: HTMLAttributes<HTMLParagraphElement>) {
-  return (
-    <p className={cn('leading-7 [&:not(:first-child)]:mt-6', className)}>
-      {children}
-    </p>
-  );
+  return <p className={cn('leading-7', className)}>{children}</p>;
 }
