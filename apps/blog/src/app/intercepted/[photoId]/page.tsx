@@ -4,14 +4,14 @@ import { Photo } from '../../components/photo';
 export default async function Page({
   params,
 }: {
-  params: { imageId: string };
+  params: { photoId: string };
 }) {
   return (
     <ContentWrapper>
       <Title>Intercepted Route</Title>
 
       <div className="w-[600px] self-center">
-        <Photo imageId={params.imageId} />
+        <Photo imageId={params.photoId} />
       </div>
     </ContentWrapper>
   );

@@ -6,13 +6,13 @@ import { Modal } from '../../../../components/modal';
 export default async function Page({
   params,
 }: {
-  params: { imageId: string };
+  params: { photoId: string };
 }) {
   return (
     <Modal title="Intercepted Route">
       <div className="min-h-[100px] flex items-center justify-center">
         <Suspense fallback={<Loader2 className="animate-spin" />}>
-          <Photo imageId={params.imageId} />
+          <Photo imageId={params.photoId} />
         </Suspense>
       </div>
     </Modal>
