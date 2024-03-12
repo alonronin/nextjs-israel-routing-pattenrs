@@ -1,5 +1,4 @@
 import { ContentWrapper, Paragraph, Title } from '@nrp/components/server';
-import Link from 'next/link';
 
 export default async function Page({ params }: { params: { postId: string } }) {
   await new Promise((resolve) => setTimeout(resolve, 1000));
